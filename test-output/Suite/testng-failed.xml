@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="chrometest(failed)">
+    <classes>
+      <class name="grid.selenium.testNg.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- grid.selenium.testNg.LoginTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test thread-count="5" name="firefoxtest(failed)">
+    <classes>
+      <class name="grid.selenium.testNg.LoginTest">
+        <methods>
+          <include name="search"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- grid.selenium.testNg.LoginTest -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
